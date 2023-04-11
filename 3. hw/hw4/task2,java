@@ -1,0 +1,28 @@
+import java.util.LinkedList;
+
+public class LinkedListQueue<T> {
+
+    private final LinkedList<T> queue = new LinkedList<>();
+
+    public boolean enqueue(T el) {
+        return queue.offerLast(el);
+    }
+
+    public T dequeue() {
+        return queue.pollFirst();
+    }
+
+    public T first() {
+        return queue.peekFirst();
+    }
+
+    public static void main(String[] args) {
+        LinkedListQueue<String> q = new LinkedListQueue();
+        q.enqueue("a");
+        q.enqueue("b");
+        System.out.println(q.dequeue());
+        System.out.println(q.first());
+
+
+    }
+}
