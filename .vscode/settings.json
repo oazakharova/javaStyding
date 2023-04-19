@@ -3,9 +3,11 @@
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.preferredDarkColorTheme": "Visual Studio Dark",
     "java.project.sourcePaths": [
+        "3. hw/hwFinal/tech/shop",
+        "3. hw/hw4",
         "3. hw/hw3",
         "3. hw/hw2",
         "3. hw/hw1",
-        "3. hw/hw4"
+        "3. hw/hwFinal"
     ]
 }
